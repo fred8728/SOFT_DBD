@@ -4,7 +4,7 @@
 ```
 1. Create ER-diagram covering the domain
 
-SOLUTION: ER-diagram.PNG
+SOLUTION: [ER-diagram.PNG](https://github.com/fred8728/SOFT_DBD/blob/master/Postgresql/ER-diagram.PNG)
 
 2. Pros and cons for different strategies
 ```
