@@ -4,7 +4,7 @@
 
 
 ## Design
-* [ER-diagram.PNG](https://github.com/fred8728/SOFT_DBD/blob/master/Postgresql/ER-diagram.PNG)
+* [ER-diagram](https://github.com/fred8728/SOFT_DBD/blob/master/Postgresql/ER-diagram.PNG)
 
 ### Pros and cons for different strategies
 
