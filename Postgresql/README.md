@@ -1,4 +1,4 @@
-# Postgresql assingment
+# Postgresql assignment
 
 ## Design
 ```
