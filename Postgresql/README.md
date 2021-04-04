@@ -46,4 +46,4 @@ Note: A single table relational database is more akin to a spreadsheet than a No
 
 ## Interface implementation
 
-Solution: [Vets implementation in Java](https://github.com/fred8728/SOFT_DBD/tree/master/Postgresql/Vets)
+* [Vets implementation in Java](https://github.com/fred8728/SOFT_DBD/tree/master/Postgresql/Vets)
