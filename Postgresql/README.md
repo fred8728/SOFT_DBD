@@ -36,13 +36,13 @@ Note: A single table relational database is more akin to a spreadsheet than a No
 
 ## Conceptual level implementation
 
-* [Setup script](https://github.com/fred8728/SOFT_DBD/blob/master/Postgresql/Vets_setup.sql)
+* [Setup](https://github.com/fred8728/SOFT_DBD/blob/master/Postgresql/Vets_setup.sql)
 * [Data for database](https://github.com/fred8728/SOFT_DBD/blob/master/Postgresql/Vets_data.sql)
 
 ## External level implementation
 
 * [View and stored procedures](https://github.com/fred8728/SOFT_DBD/blob/master/Postgresql/Vets_view_stored.sql)
-* [Designated user script](https://github.com/fred8728/SOFT_DBD/blob/master/Postgresql/Vets_designatedUser.sql) 
+* [Designated user](https://github.com/fred8728/SOFT_DBD/blob/master/Postgresql/Vets_designatedUser.sql) 
 
 ## Interface implementation
 
