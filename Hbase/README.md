@@ -3,7 +3,7 @@
 ## [Assignment PDF ](https://github.com/fred8728/SOFT_DBD/blob/master/Hbase/assignment_column_db.pdf)
 
 ### Task 1: 
-* [Task 1: Investigation ]()
+* [Task 1: Investigation ](https://github.com/fred8728/SOFT_DBD/blob/master/Hbase/Opgave%201_Investigation.pdf)
 
 ### Task 2:
 * [Task 2: Bloom filters 1](https://github.com/fred8728/SOFT_DBD/blob/master/Hbase/Opgave2_BloomFilterInfo.pdf)
