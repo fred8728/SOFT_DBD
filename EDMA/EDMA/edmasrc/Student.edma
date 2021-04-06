@@ -1,0 +1,12 @@
+
+
+ValueDomain Name : String [1..MAX]
+ValueDomain Age : Integer [0..70]
+
+ValueDomain Student : Struct { name : Name, age : Age }
+
+ValueDomain Id : Integer [1..9999]
+ValueDomain Ects : Integer [5..30]
+ValueDomain Courses : Struct { id : Id, name : Name, ects : Ects }
+
+ValueDomain Active : Boolean

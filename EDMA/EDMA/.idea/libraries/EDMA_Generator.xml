@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EDMA_Generator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EDMA_GENERATE/lib/EDMA_Generator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
