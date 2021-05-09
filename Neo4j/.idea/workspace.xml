@@ -1593,7 +1593,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/CreateRelationQueries.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/DeleteQueries.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/GetQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/UpdateQueries.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Postgresql/.idea/libraries/postgresql_42_2_19.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Postgresql/.idea/vcs.xml" afterDir="false" />
@@ -1739,7 +1738,7 @@
       <workItem from="1620478698082" duration="3929000" />
       <workItem from="1620482954867" duration="9970000" />
       <workItem from="1620540101366" duration="22493000" />
-      <workItem from="1620597773896" duration="1210000" />
+      <workItem from="1620597773896" duration="1885000" />
     </task>
     <servers />
   </component>
