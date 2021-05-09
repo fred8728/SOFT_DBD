@@ -16,6 +16,7 @@ public class Main {
         Run the unit tests by right clicking the Java folder under Test,
         and choose Run All Tests (Ctrl+Shift+F10)
          */
+        System.out.println("hello");
     }
 
 }

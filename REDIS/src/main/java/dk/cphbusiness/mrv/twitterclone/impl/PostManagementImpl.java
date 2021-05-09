@@ -22,7 +22,13 @@ public class PostManagementImpl implements PostManagement {
 
     @Override
     public boolean createPost(String username, String message) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        if(jedis.get(username) == null) {
+            return false;
+        } else{
+            jedis.set(username, message);
+        }
+        return true;
+        //throw new UnsupportedOperationException("Not yet implemented");
     }
 
     @Override

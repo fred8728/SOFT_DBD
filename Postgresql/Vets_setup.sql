@@ -1,26 +1,24 @@
-
-DROP TABLE IF EXISTS petowner;
-DROP TABLE IF EXISTS caretaker;
-DROP TABLE IF EXISTS dogs;
-DROP TABLE IF EXISTS cats;
+CREATE SCHEMA IF NOT EXISTS vets;
+SET SEARCH_path TO vets;
+DROP TABLE IF EXISTS pets_caretakers;
+DROP TABLE IF EXISTS caretakers;
 DROP TABLE IF EXISTS pets;
 DROP TABLE IF EXISTS vets;
 DROP TABLE IF EXISTS addresses;
 DROP TABLE IF EXISTS cities;
-DROP TABLE IF EXISTS pets_caretakers;
 DROP type IF EXISTS species;
 DROP type IF EXISTS SIZE;
 
 create type species as enum('Dog', 'Cat', 'Rabbit', 'Guinea pig', 'Hamster', 'Hedgehog');
 create type size as enum('xs', 's', 'm', 'l');
 
-CREATE TABLE cities 
+CREATE TABLE cities
 (
     city_id int PRIMARY KEY,
     name varchar(30) NOT NULL
 );
 
-CREATE TABLE addresses 
+CREATE TABLE addresses
 (
     address_id SERIAL PRIMARY KEY,
     street varchar(100) NOT NULL,
@@ -58,6 +56,7 @@ CREATE table pets_caretakers
     caretaker_id int REFERENCES caretakers (caretaker_id) on delete cascade,
     PRIMARY KEY (pet_id, caretaker_id)
 );
+
 
 
 

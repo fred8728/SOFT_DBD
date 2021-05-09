@@ -1,17 +1,20 @@
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.Properties;
 
 public class ListOfPets {
 
+    private static String url = "jdbc:postgresql://localhost:5432/soft2021";
     public static void main(String[] args) throws Exception{
         System.out.println("List of Pets");
-        System.out.println("______________");
-        ListOfPets connector = new ListOfPets();
-        connector.getAllPets();
+
+        for( Pet p: getAllPets()){
+            System.out.println(p.toString());
+        }
     }
 
-    public void getAllPets() throws SQLException {
-        String url = "jdbc:postgresql://localhost:5432/soft2021";
+    private static ArrayList<Pet> getAllPets() throws SQLException {
+        ArrayList<Pet> pets = new ArrayList<>();
         Properties props = new Properties();
         props.setProperty("user","softdb");
         props.setProperty("password","softdb");
@@ -20,9 +23,11 @@ public class ListOfPets {
             PreparedStatement statement = conn.prepareStatement(sql);
             try(ResultSet result = statement.executeQuery()) {
                 while (result.next()) {
-                    System.out.println("Id: "+result.getInt(1)+"\nName: "+result.getString(2) + "\nDateOfBirth: " + result.getDate(3) + "\nType: " + result.getString(4) + "\nSize: " + result.getString(5) + "\nVet_cvr: " +  result.getString(6) + "\n \n") ;
+                    Pet p = new Pet(result.getInt(1),result.getString(2),result.getDate(3),Species.valueOf(result.getString(4)),Size.valueOf(result.getString(5)),result.getString(6)) ;
+                    pets.add(p);
                 }
             }
         }
+        return pets;
     }
 }
